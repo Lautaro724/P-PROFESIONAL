@@ -72,9 +72,15 @@ body{
     background-color:  rgba(255, 255, 255, 0.3);
     position: absolute;
     width: 482px;
-    height: 552px;
-    left: 0px;
-    top: 50px;
+    padding: 20px;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    display: flex; /*utilizo flexbox para poder centrar el contenido del div */
+    flex-direction: column;   
+    justify-content: center; 
+    align-items: center;
+
 }
 
 
