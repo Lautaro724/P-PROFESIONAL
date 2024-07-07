@@ -41,9 +41,9 @@
 /* -----------------HEADER------------------------- */
 
 
-/* -----------------MAIN--------------------------- */
 
-body{
+/* -----------------MAIN--------------------------- */
+body{/* ajustes del tipo de fuente*/
     font-family: 'Inter', Inter;
     margin: 0;
     height: 100vh;
@@ -56,7 +56,7 @@ body{
     position: relative;
     width: 100%;
     height: 100%;
-    background-image: url('G:/Práctica Profesional/Proyecto Práctica Profesional/Código/Inicio/images/fondo_main_inicio.jpg'); 
+    background-image: url('G:/Práctica Profesional/Proyecto Práctica Profesional/Código/Contacto/images/background.jpg');                  
     background-size: cover;
     background-position: center;
     display: flex;
@@ -68,52 +68,10 @@ body{
 }
 
 
-.cuerpo_inicio{
-    background-color:  rgba(255, 255, 255, 0.3);
-    position: absolute;
-    width: 482px;
-    padding: 20px;
-    left: 0;
-    bottom: 0;
-    top: 0;
-    display: flex; /*utilizo flexbox para poder centrar el contenido del div */
-    flex-direction: column;   
-    justify-content: center; /* centra verticalmente el contenido */
-    align-items: center;
 
-}
-
-
-
-.title_{
-
-}
-
-
-.leyenda h2{
-    padding: 2px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 48px;
-}
-
-button {
-    padding: 10px 85px;
-    font-size: 1em;
-    cursor: pointer;
-    margin-top: 20px;
-    background-color: #B33332; 
-    color: white;
-    border: none;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-}
-
-button:hover {
-    background-color: rgba(0, 0, 0, 0.7); /* anim para cambiar el color al pasar el mouse*/
-}
 
 /* -----------------MAIN--------------------------- */
+
 
 
 
@@ -128,3 +86,9 @@ button:hover {
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
 }
 /* -----------------FOOTER------------------------- */
+
+
+
+
+
+
