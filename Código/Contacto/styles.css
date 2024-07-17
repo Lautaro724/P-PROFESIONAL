@@ -1,4 +1,5 @@
 /* -----------------HEADER------------------------- */
+
 * {
     margin: 0;
     padding: 0;
@@ -38,6 +39,7 @@
     padding: 10px;
     font-weight: bold;
 }
+
 /* -----------------HEADER------------------------- */
 
 
@@ -53,22 +55,60 @@ body{/* ajustes del tipo de fuente*/
 }
 
 .imagen_background {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background-image: url('G:/Práctica Profesional/Proyecto Práctica Profesional/Código/Contacto/images/background.jpg');                  
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: black; 
-    text-align: center;
+    
+    
+   
 }
 
+.form_contacto{
+    background-color:  rgba(255, 255, 255, 1);
+    position: absolute;
+    width: 482px;
+    padding: 20px;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    display: flex; /*utilizo flexbox para poder centrar el contenido del div */
+    flex-direction: column;   
+    justify-content: center; /* centra verticalmente el contenido */
+    align-items: center;
 
+}
 
+.form_contacto {/* ajustes generales del contenedor del form*/
+    background-color:  rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.form_contacto input { /* ajustes de los inputs del form*/
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+    font-size: 16px;
+    color: #555;
+}
+
+.form_contacto button { /* ajustes del botón de enviar */
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #b13331;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form_contacto button:hover { /*animación para el botón de "enviar" cuando el mouse pasa por encima del botón*/
+    background-color: #a02020;
+}
 
 /* -----------------MAIN--------------------------- */
 
@@ -76,6 +116,7 @@ body{/* ajustes del tipo de fuente*/
 
 
 /* -----------------FOOTER------------------------- */
+
 .footer_{
     position: fixed;
     bottom: 0;
@@ -85,6 +126,7 @@ body{/* ajustes del tipo de fuente*/
     padding: 10px;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
 }
+
 /* -----------------FOOTER------------------------- */
 
 

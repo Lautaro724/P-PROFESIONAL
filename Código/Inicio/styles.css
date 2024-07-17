@@ -106,11 +106,12 @@ button {
     background-color: #B33332; 
     color: white;
     border: none;
+    border-radius: 5px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 button:hover {
-    background-color: rgba(0, 0, 0, 0.7); /* anim para cambiar el color al pasar el mouse*/
+    background-color: #a02020; /* anim para cambiar el color del botón "contacto" al pasar el mouse*/
 }
 
 /* -----------------MAIN--------------------------- */
