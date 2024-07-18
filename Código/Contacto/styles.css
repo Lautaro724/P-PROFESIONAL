@@ -86,7 +86,7 @@ body{/* ajustes del tipo de fuente*/
 .form_contacto input { /* ajustes de los inputs del form*/
     width: 100%;
     padding: 10px;
-    margin: 10px 0;
+    margin: 10px;
     border: none;
     border-radius: 5px;
     background-color: #e0e0e0;
@@ -94,10 +94,22 @@ body{/* ajustes del tipo de fuente*/
     color: #555;
 }
 
+.form_contacto textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+    font-size: 16px;
+    color: #555;
+    resize: none;
+}
+
 .form_contacto button { /* ajustes del botón de enviar */
     width: 100%;
     padding: 10px;
-    margin: 10px 0;
+    margin: 10px;
     border: none;
     border-radius: 5px;
     background-color: #b13331;
