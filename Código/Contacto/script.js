@@ -4,9 +4,26 @@ const enviarFormulario = () => {
 	let apellido = document.getElementById('input_apellido').value.trim();
 	let mensaje = document.getElementById('mensaje').value.trim();
 	let numero = 5493704555322;
-	//---------MENSAJE DE ALERTA AL NO COMPLETAR LOS INPUTS Y ENVIAR EL FORMULARIO---------//
+	//---------MENSAJE DE ALERTA AL NO COMPLETAR LOS INPUTS Y ENVIAR EL FORMULARIO(librería "toastr")---------//
 	if (nombre === "" || apellido === "" || mensaje === "") {
-        alert("Por favor, completa todos los campos antes de enviar el formulario.");
+        toastr.options = {
+            "closeButton": true,
+            "debug": false,
+            "newestOnTop": false,
+            "progressBar": false,
+            "positionClass": "toast-center",
+            "preventDuplicates": true,
+            "onclick": null,
+            "showDuration": "300",
+            "hideDuration": "1000",
+            "timeOut": "5000",
+            "extendedTimeOut": "1000",
+            "showEasing": "swing",
+            "hideEasing": "linear",
+            "showMethod": "fadeIn",
+            "hideMethod": "fadeOut"
+        }
+        toastr.warning('Por favor, completa todos los campos antes de enviar el formulario.');
         return;
     }
     //---------ENVIA LOS DATOS INTRODUCIDOS MEDIANTE EL USO DE WHATSAPP---------//
@@ -15,4 +32,5 @@ const enviarFormulario = () => {
 }
 //---------ABRE LA APLICACIÓN DE WHATSAPP EN UNA VENTANA---------//
 evento.addEventListener('click', enviarFormulario)
+
 
