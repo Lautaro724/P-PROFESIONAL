@@ -23,7 +23,7 @@ const enviarFormulario = () => {
             "showMethod": "fadeIn",
             "hideMethod": "fadeOut"
         }
-        toastr.warning('Por favor, completa todos los campos antes de enviar el formulario.');
+        toastr.warning('Por favor, completa todos los campos antes de enviar sus datos.');
         return;
     }
     //---------ENVIA LOS DATOS INTRODUCIDOS MEDIANTE EL USO DE WHATSAPP---------//
