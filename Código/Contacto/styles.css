@@ -1,11 +1,13 @@
-/* -----------------HEADER------------------------- */
 
+/* -----------------AJUSTES GENERALES-------------- */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/* -----------------AJUSTES GENERALES-------------- */
 
+/* -----------------HEADER------------------------- */
 .header_{
     position: fixed;
     top: 0;
@@ -39,7 +41,6 @@
     padding: 10px;
     font-weight: bold;
 }
-
 /* -----------------HEADER------------------------- */
 
 
@@ -52,14 +53,13 @@ body{/* ajustes del tipo de fuente*/
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url('G:/Práctica Profesional/Proyecto Práctica Profesional/Código/Contacto/images/background_contacto.png'); 
+    background-size: cover;
+    background-position: center;
+    flex: 1;
 }
 
-.imagen_background {
-    
-    
-   
-}
-
+/* -----------------PROPIEDADES FORM--------------- */
 .form_contacto{
     background-color:  rgba(255, 255, 255, 1);
     position: absolute;
@@ -128,7 +128,6 @@ body{/* ajustes del tipo de fuente*/
 
 
 /* -----------------FOOTER------------------------- */
-
 .footer_{
     position: fixed;
     bottom: 0;
@@ -138,7 +137,6 @@ body{/* ajustes del tipo de fuente*/
     padding: 10px;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
 }
-
 /* -----------------FOOTER------------------------- */
 
 
