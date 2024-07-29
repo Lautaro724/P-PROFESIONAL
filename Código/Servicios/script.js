@@ -8,5 +8,5 @@ var swiper = new Swiper('.swiper-container', {
     delay: 3000, // 3 SEGUNDOS ENTRE CADA SERVICIO
     disableOnInteraction: false,
   },
-  loop: true, // REPITE DESDE EL PRINCIPIO CUANDO PASA EL ÚLTIMO SERVICIO
+  loop: false, // REPITE DESDE EL PRINCIPIO CUANDO PASA EL ÚLTIMO SERVICIO
 });
