@@ -131,19 +131,19 @@ button:hover {
     align-items: center;
 }
 
-.social-buttons {
+.botones_rrss {
     position: absolute;
     left: 20px; /* Ajusta según el margen deseado */
     text-decoration: none;
 
 }
 
-.social-buttons a {
+.botones_rrss a {
     display: inline-block;
     margin: 0 5px; /* Opcional: para dar espacio entre los iconos */
 }
 
-.social-buttons img {
+.botones_rrss img {
     display: block; /* Asegura que la imagen se alinee correctamente */
 }
 
