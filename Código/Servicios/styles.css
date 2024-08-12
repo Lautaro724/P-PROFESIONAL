@@ -73,13 +73,36 @@
 }
 
 /* -----------------FOOTER------------------------- */
-.footer_{
+.footer_ {
     position: fixed;
     bottom: 0;
     width: 100%;
     background-color: #B33332;
-    text-align: center;
     padding: 10px;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-buttons {
+    position: absolute;
+    left: 20px; /* Ajusta según el margen deseado */
+    text-decoration: none;
+
+}
+
+.social-buttons a {
+    display: inline-block;
+    margin: 0 5px; /* Opcional: para dar espacio entre los iconos */
+}
+
+.social-buttons img {
+    display: block; /* Asegura que la imagen se alinee correctamente */
+}
+
+
+footer p {
+    margin: 0;
 }
 /* -----------------FOOTER------------------------- */
