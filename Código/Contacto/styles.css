@@ -122,6 +122,43 @@ body{/* ajustes del tipo de fuente*/
     background-color: #a02020;
 }
 
+
+/* -----------------MAP CONTAINER--------------------------- */
+/* Contenedor del mapa, mismo estilo que el del formulario */
+.map_container {
+    background-color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    width: 482px;
+    padding: 20px;
+    right: 0; /* Posiciona el contenedor en el lado derecho */
+    bottom: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centrar verticalmente el contenido */
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Leyenda del mapa */
+.map_container h2 {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 15px; /* Espacio entre la leyenda y el mapa */
+    color: #333;
+}
+
+/* Mapa */
+.map_container iframe {
+    width: 100%;
+    height: 350px;
+    border-radius: 10px; /* Bordes redondeados para que coincida con el contenedor */
+    border: none;
+}
+/* -----------------MAP CONTAINER--------------------------- */
+
+
 /* -----------------MAIN--------------------------- */
 
 
